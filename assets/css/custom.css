@@ -1,0 +1,80 @@
+/*
+ * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ *
+ * Template Name: Dialia - Registered Massage Therapy HTML Template   
+ * Template URI: https://thememarch.com/demo/html/dialia/
+ * Description: Dialia is a registered massage therapy HTML template which comes with the unique and clean design. It helps you to create a beautiful massage therapy HTML website. It's a fully responsive website template. It has also e-commerce support. E-commerce pages are included on this template.
+ * Author: Thememarch
+ * Author URI: https://thememarch.com
+ * Version: 2.0
+ *
+ * %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+ */
+
+html {
+  scroll-behavior: smooth !important;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Work+Sans:300,600);
+
+body {
+  font-size: 20px;
+  font-family: "Work Sans", sans-serif;
+  color: #333;
+  font-weight: 300;
+  text-align: center;
+  background-color: #f8f6f0;
+}
+/* h1 {
+  font-weight: 300;
+  margin: 0px;
+  padding: 10px;
+  font-size: 20px;
+  background-color: #444;
+  color: #fff;
+} */
+
+.youtube-video {
+  width: 900px;
+  height: 400px;
+}
+
+#quiz > h2 {
+  line-height: 30px !important;
+  font-size: 25px;
+}
+
+@media (max-width: 992px) {
+  .youtube-video {
+    width: 100%;
+  }
+}
+
+@media (max-width: 570px) {
+  .question {
+    font-size: 18px !important;
+  }
+  .pagination-btns {
+    padding-top: 10px;
+  }
+}
+
+@media (max-width: 399px) {
+  .about-content {
+    margin-top: -110px;
+  }
+  #tel-ost > a > h3 {
+    font-size: 15px;
+  }
+  .youtube-video {
+    width: 300px;
+    height: 250px;
+  }
+  .question {
+    font-size: 15px !important;
+  }
+}
+
+.btn-disabled {
+  opacity: 0.8;
+}
